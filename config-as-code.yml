@@ -24,7 +24,7 @@ unclassified:
               credentialsId: "kypseli-github-token"
               repoOwner: "kypseli"
               repository: "pipeline-library"
-globaltemplatecatalogmanagement:
+globalCloudBeesPipelineTemplateCatalog:
   catalogs:
     version: "master"
     scm:
