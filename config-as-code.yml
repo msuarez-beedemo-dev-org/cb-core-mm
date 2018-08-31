@@ -24,11 +24,3 @@ unclassified:
               credentialsId: "kypseli-github-token"
               repoOwner: "kypseli"
               repository: "pipeline-library"
-globalCloudBeesPipelineTemplateCatalog:
-  catalogs:
-    version: "master"
-    scm:
-      github:
-        credentialsId: "kypseli-github-token"
-        repoOwner: "kypseli"
-        repository: "pipeline-templates"
