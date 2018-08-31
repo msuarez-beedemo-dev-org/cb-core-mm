@@ -24,3 +24,11 @@ unclassified:
               credentialsId: "kypseli-github-token"
               repoOwner: "kypseli"
               repository: "pipeline-library"
+  globaltemplatecatalogmanagement:
+    catalogs:
+      version: "master"
+      scm:
+        github:
+          credentialsId: "kypseli-github-token"
+          repoOwner: "kypseli"
+          repository: "pipeline-templates"
