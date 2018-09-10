@@ -869,7 +869,7 @@
       "name": "Pipeline: Multibranch",
       "groupId": "org.jenkins-ci.plugins.workflow",
       "artifactId": "workflow-multibranch",
-      "version": "2.20",
+      "version": "2.21-SNAPSHOT",
       "dependencies":       {
         "branch-api": "2.0.18",
         "cloudbees-folder": "6.1.2",
