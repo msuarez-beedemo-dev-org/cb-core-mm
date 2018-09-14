@@ -19,3 +19,4 @@ skip-plugin:4.1
 slack:2.3
 github-oauth:0.29
 artifact-manager-s3:1.1
+aws-global-configuration:1.0
