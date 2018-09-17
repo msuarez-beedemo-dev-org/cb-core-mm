@@ -19,14 +19,14 @@ unclassified:
           provider: s3
   globallibraries:
     libraries:
-    - defaultVersion: "master"
-      name: "kypseli"
+    - defaultVersion: "completed"
+      name: "cd-accel"
       retriever:
         modernSCM:
           scm:
             github:
-              credentialsId: "kypseli-github-token"
-              repoOwner: "kypseli"
+              credentialsId: "cd-accel-github-token"
+              repoOwner: "cloudbees-cd-acceleration-workshop"
               repository: "pipeline-library"
 aws:
   s3:
