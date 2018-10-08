@@ -1,5 +1,5 @@
 antisamy-markup-formatter:1.5
-configuration-as-code:1.0-rc2
+configuration-as-code:1.0
 configuration-as-code-support:1.0-rc2
 cloudbees-workflow-ui:2.1
 notification-api:1.1
@@ -11,8 +11,9 @@ pipeline-stage-view:2.10
 pipeline-utility-steps:2.1.0
 workflow-cps-global-lib:2.9
 workflow-cps-checkpoint:2.7
+workflow-multibranch:2.21
 momentjs:1.1.1
 handlebars:1.1.1
+scm-api:2.8
 skip-plugin:4.1
-slack:2.3
-github-oauth:0.29
+token-macro:2.1

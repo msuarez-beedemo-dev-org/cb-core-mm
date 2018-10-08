@@ -1,10 +1,10 @@
 {
   "product": "cje-mm",
-  "version": "2.121.3.1",
+  "version": "2.138.1.2",
   "distribution": "rolling",
   "revision": 2,
-  "commit": "e224933f19d872fef2dbf84400d59bc570a8ea56",
-  "core": "2.121.3-cb-1",
+  "commit": "2955207dd4645b64c5599f9267f9060c631b5cf0",
+  "core": "2.138.1-cb-3",
   "plugins":   {
     "async-http-client":     {
       "name": "Async Http Client",
@@ -28,19 +28,19 @@
       "name": "Common API for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-commons",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies": {"jackson2-api": "2.8.11.2"},
       "scope": "bootstrap",
-      "sha1": "JX6e6vor/KtsLWOCQZv3USTNzYw=",
+      "sha1": "PjC36uMtbLoqBiNf25oDRKCgrSc=",
       "tier": "compatible"
     },
     "bouncycastle-api":     {
       "name": "bouncycastle API Plugin",
       "groupId": "org.jenkins-ci.plugins",
       "artifactId": "bouncycastle-api",
-      "version": "2.16.3",
+      "version": "2.17",
       "scope": "bootstrap",
-      "sha1": "6MXYmIR4HcSdwsRlKPuY36LwOK4=",
+      "sha1": "IFnIb622bG4vL0ICD+mLFLs7UjM=",
       "tier": "compatible"
     },
     "cloudbees-license":     {
@@ -70,14 +70,14 @@
       "name": "CloudBees Update Center Data API",
       "groupId": "com.cloudbees.jenkins.plugins",
       "artifactId": "cloudbees-uc-data-api",
-      "version": "4.41",
+      "version": "4.42",
       "dependencies":       {
         "async-http-client": "1.7.24.1",
         "cloudbees-license": "9.11",
         "nectar-license": "8.6"
       },
       "scope": "bootstrap",
-      "sha1": "8ECT5YM5n0/0jQcqIlo77U9KTME=",
+      "sha1": "KRWPprti6vuM0IQkU0zJ3o+as+4=",
       "tier": "proprietary"
     },
     "structs":     {
@@ -259,7 +259,7 @@
       "name": "SCM API Plugin",
       "groupId": "org.jenkins-ci.plugins",
       "artifactId": "scm-api",
-      "version": "2.2.8-SNAPSHOT",
+      "version": "2.2.8",
       "dependencies": {"structs": "1.9"},
       "scope": "bootstrap",
       "sha1": "fnt9BF7H1gwC2kRkpXTSmCCGUdU=",
@@ -283,7 +283,7 @@
       "name": "JUnit Plugin",
       "groupId": "org.jenkins-ci.plugins",
       "artifactId": "junit",
-      "version": "1.24",
+      "version": "1.26.1",
       "dependencies":       {
         "script-security": "1.30",
         "structs": "1.7",
@@ -291,7 +291,7 @@
         "workflow-step-api": "2.12"
       },
       "scope": "bootstrap",
-      "sha1": "wX7QeXdJhypqtDQpnM8JYQHh6Jo=",
+      "sha1": "7eQkBsizwSr1jfPZ0HNcYkYU2uU=",
       "tier": "verified"
     },
     "mailer":     {
@@ -354,13 +354,13 @@
       "name": "Operations Center Agent",
       "groupId": "com.cloudbees.operations-center.common",
       "artifactId": "operations-center-agent",
-      "version": "2.121.0.2",
+      "version": "2.121.0.3",
       "dependencies":       {
         "async-http-client": "1.7.24.1",
         "bouncycastle-api": "2.16.2"
       },
       "scope": "bootstrap",
-      "sha1": "Gt2NkRtTIu02rTLKLdCS1H3H+xM=",
+      "sha1": "wnAtc8c+fdjYQrDepCkZaM5TBVM=",
       "tier": "proprietary"
     },
     "ssh-credentials":     {
@@ -765,7 +765,7 @@
       "name": "Config File Provider Plugin",
       "groupId": "org.jenkins-ci.plugins",
       "artifactId": "config-file-provider",
-      "version": "2.17",
+      "version": "3.2",
       "dependencies":       {
         "credentials": "2.1.4",
         "ssh-credentials": "1.12",
@@ -774,7 +774,7 @@
       },
       "optionalDependencies": {"cloudbees-folder": "5.12"},
       "scope": "fat",
-      "sha1": "VBttIaZRbhwe7bLGCqvKBBf8TLs=",
+      "sha1": "Ak2f05IH8ypF48m1ZJZVkIGZyvE=",
       "tier": "verified"
     },
     "nodejs":     {
@@ -805,10 +805,10 @@
       "name": "REST API for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-rest",
-      "version": "1.7.1",
-      "dependencies": {"blueocean-commons": "1.7.1"},
+      "version": "1.8.2",
+      "dependencies": {"blueocean-commons": "1.8.2"},
       "scope": "fat",
-      "sha1": "nXqUBQ+tDyP1aLlh8Gfrookyqwo=",
+      "sha1": "2GypD5yV9n15wx/HJGohxHz7cT4=",
       "tier": "compatible"
     },
     "workflow-scm-step":     {
@@ -869,7 +869,7 @@
       "name": "Pipeline: Multibranch",
       "groupId": "org.jenkins-ci.plugins.workflow",
       "artifactId": "workflow-multibranch",
-      "version": "2.21-SNAPSHOT",
+      "version": "2.21",
       "dependencies":       {
         "branch-api": "2.0.18",
         "cloudbees-folder": "6.1.2",
@@ -900,63 +900,63 @@
       "name": "Pipeline SCM API for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-pipeline-scm-api",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "blueocean-rest": "1.7.1",
+        "blueocean-rest": "1.8.2",
         "branch-api": "2.0.20",
         "credentials": "2.1.16",
         "pubsub-light": "1.12",
-        "workflow-multibranch": "2.17"
+        "workflow-multibranch": "2.20"
       },
       "scope": "fat",
-      "sha1": "JS4/8VWXmQG9pKsOCXVhu71FRhg=",
+      "sha1": "tnvx3xj0TA26AXZYyRTMOV7qkHU=",
       "tier": "compatible"
     },
     "blueocean-jwt":     {
       "name": "JWT for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-jwt",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "blueocean-commons": "1.7.1",
+        "blueocean-commons": "1.8.2",
         "mailer": "1.20"
       },
       "scope": "fat",
-      "sha1": "9eqFWce1/0Oc+0843KOxbtxTadc=",
+      "sha1": "bwxIStL5WkIrEvXfNFNXOAAmYg0=",
       "tier": "compatible"
     },
     "jenkins-design-language":     {
       "name": "Jenkins Design Language",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "jenkins-design-language",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "scope": "fat",
-      "sha1": "lwFFvP4vg37kLKGH1j3b8a0+z24=",
+      "sha1": "P3vA78FGFMEHKgGmY1tG/yZfbYk=",
       "tier": "compatible"
     },
     "blueocean-core-js":     {
       "name": "Blue Ocean Core JS",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-core-js",
-      "version": "1.7.1",
-      "dependencies": {"jenkins-design-language": "1.7.1"},
+      "version": "1.8.2",
+      "dependencies": {"jenkins-design-language": "1.8.2"},
       "scope": "fat",
-      "sha1": "iWJw53VgCysWnyrxcRQ0db8DFcs=",
+      "sha1": "qSzC4lEjf5iA4V8gW18jFwmYTBs=",
       "tier": "compatible"
     },
     "blueocean-web":     {
       "name": "Web for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-web",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "blueocean-core-js": "1.7.1",
-        "blueocean-rest": "1.7.1",
-        "jenkins-design-language": "1.7.1",
+        "blueocean-core-js": "1.8.2",
+        "blueocean-rest": "1.8.2",
+        "jenkins-design-language": "1.8.2",
         "variant": "1.1"
       },
       "scope": "fat",
-      "sha1": "HMQ/KxEaT/ICSQ7aRHDRfD8wZok=",
+      "sha1": "bZjw/XVGdhWetLdkUNeYN/U0P8M=",
       "tier": "compatible"
     },
     "favorite":     {
@@ -977,11 +977,11 @@
       "name": "REST Implementation for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-rest-impl",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "blueocean-jwt": "1.7.1",
-        "blueocean-rest": "1.7.1",
-        "blueocean-web": "1.7.1",
+        "blueocean-jwt": "1.8.2",
+        "blueocean-rest": "1.8.2",
+        "blueocean-web": "1.8.2",
         "cloudbees-folder": "6.3",
         "credentials": "2.1.16",
         "display-url-api": "2.2.0",
@@ -990,7 +990,7 @@
         "mailer": "1.20"
       },
       "scope": "fat",
-      "sha1": "LIfT7+jLTHRKcv6sQcfyzT3SAvM=",
+      "sha1": "xgPRYynWoZhcF8Z1me631Oe412M=",
       "tier": "compatible"
     },
     "workflow-durable-task-step":     {
@@ -1370,10 +1370,10 @@
       "name": "Pipeline implementation for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-pipeline-api-impl",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "blueocean-pipeline-scm-api": "1.7.1",
-        "blueocean-rest-impl": "1.7.1",
+        "blueocean-pipeline-scm-api": "1.8.2",
+        "blueocean-rest-impl": "1.8.2",
         "branch-api": "2.0.20",
         "credentials": "2.1.16",
         "git": "3.8.0",
@@ -1382,21 +1382,21 @@
         "pipeline-build-step": "2.7",
         "pipeline-graph-analysis": "1.6",
         "pipeline-input-step": "2.8",
-        "pipeline-model-definition": "1.3",
+        "pipeline-model-definition": "1.3.1",
         "pipeline-stage-step": "2.3",
-        "pipeline-stage-tags-metadata": "1.3",
+        "pipeline-stage-tags-metadata": "1.3.1",
         "plain-credentials": "1.4",
         "scm-api": "2.2.7",
-        "workflow-api": "2.25",
-        "workflow-cps": "2.46",
-        "workflow-durable-task-step": "2.18",
-        "workflow-job": "2.17",
-        "workflow-multibranch": "2.17",
-        "workflow-step-api": "2.14",
+        "workflow-api": "2.28",
+        "workflow-cps": "2.54",
+        "workflow-durable-task-step": "2.19",
+        "workflow-job": "2.23",
+        "workflow-multibranch": "2.20",
+        "workflow-step-api": "2.16",
         "workflow-support": "2.18"
       },
       "scope": "fat",
-      "sha1": "OOAAI56HvZN0wKWqq3lS7KrKZUY=",
+      "sha1": "Uwd/Juuk+4PSMsxk9OBpwcFIKis=",
       "tier": "compatible"
     },
     "handy-uri-templates-2-api":     {
@@ -1448,40 +1448,40 @@
       "name": "Bitbucket Pipeline for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-bitbucket-pipeline",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "apache-httpcomponents-client-4-api": "4.5.5-2.0",
-        "blueocean-pipeline-api-impl": "1.7.1",
+        "apache-httpcomponents-client-4-api": "4.5.5-3.0",
+        "blueocean-pipeline-api-impl": "1.8.2",
         "cloudbees-bitbucket-branch-source": "2.2.9",
         "pubsub-light": "1.12"
       },
       "scope": "fat",
-      "sha1": "QvPSLyxUfGkWWUH5eC2dr3F3Pag=",
+      "sha1": "hcfANObz7OkA6yJdAUmfdg/kg74=",
       "tier": "compatible"
     },
     "blueocean-config":     {
       "name": "Config API for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-config",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "blueocean-commons": "1.7.1",
-        "blueocean-jwt": "1.7.1",
-        "blueocean-rest": "1.7.1",
-        "blueocean-web": "1.7.1"
+        "blueocean-commons": "1.8.2",
+        "blueocean-jwt": "1.8.2",
+        "blueocean-rest": "1.8.2",
+        "blueocean-web": "1.8.2"
       },
       "scope": "fat",
-      "sha1": "KeFsSCzGjJOtwCyEgc9QYkzOSAo=",
+      "sha1": "xWbf5PD1ntjnzS/El2JbJttXyO4=",
       "tier": "compatible"
     },
     "blueocean-dashboard":     {
       "name": "Dashboard for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-dashboard",
-      "version": "1.7.1",
-      "dependencies": {"blueocean-web": "1.7.1"},
+      "version": "1.8.2",
+      "dependencies": {"blueocean-web": "1.8.2"},
       "scope": "fat",
-      "sha1": "XAp/oMjIQz14Pij0MAce7csBTl8=",
+      "sha1": "FKOtJ81xp618Xx3fJp9lh3yyX9U=",
       "tier": "compatible"
     },
     "sse-gateway":     {
@@ -1498,65 +1498,66 @@
       "name": "Events API for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-events",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "blueocean-pipeline-api-impl": "1.7.1",
+        "blueocean-pipeline-api-impl": "1.8.2",
         "pubsub-light": "1.12",
         "sse-gateway": "1.15"
       },
       "scope": "fat",
-      "sha1": "X6s7JUm537NrxoB8nHdHq2L19+A=",
+      "sha1": "WZUaoUptMcu0MbzVIrB00XKCPU4=",
       "tier": "compatible"
     },
     "blueocean-git-pipeline":     {
       "name": "Git Pipeline for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-git-pipeline",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "blueocean-pipeline-api-impl": "1.7.1",
-        "blueocean-pipeline-scm-api": "1.7.1",
+        "blueocean-pipeline-api-impl": "1.8.2",
+        "blueocean-pipeline-scm-api": "1.8.2",
         "git": "3.8.0"
       },
       "scope": "fat",
-      "sha1": "a6xRggOMBsJGqOqeteUmwwq+HOY=",
+      "sha1": "biLt08ChgdVdFbYGEKNpCRqVKww=",
       "tier": "compatible"
     },
     "blueocean-github-pipeline":     {
       "name": "GitHub Pipeline for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-github-pipeline",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "apache-httpcomponents-client-4-api": "4.5.5-2.0",
-        "blueocean-pipeline-api-impl": "1.7.1",
+        "apache-httpcomponents-client-4-api": "4.5.5-3.0",
+        "blueocean-pipeline-api-impl": "1.8.2",
         "github-api": "1.90",
         "github-branch-source": "2.3.2",
         "jackson2-api": "2.8.11.2",
         "pubsub-light": "1.12"
       },
       "scope": "fat",
-      "sha1": "fMq7dvLfonS970T9aYMVGJKsoWs=",
+      "sha1": "cGwABT93gfJ5pf9SdgqdfZoCq/E=",
       "tier": "compatible"
     },
     "blueocean-i18n":     {
       "name": "i18n for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-i18n",
-      "version": "1.7.1",
-      "dependencies": {"blueocean-rest": "1.7.1"},
+      "version": "1.8.2",
+      "dependencies": {"blueocean-rest": "1.8.2"},
       "scope": "fat",
-      "sha1": "EpV3lQLhiqaFhBBAQLednu6tsxQ=",
+      "sha1": "Bh6xhiJ1shD09HgMEGtw57xFjhA=",
       "tier": "compatible"
     },
     "jira":     {
       "name": "Jenkins JIRA plugin",
       "groupId": "org.jenkins-ci.plugins",
       "artifactId": "jira",
-      "version": "3.0.0",
+      "version": "3.0.2",
       "dependencies":       {
         "apache-httpcomponents-client-4-api": "4.5.5-2.0",
         "branch-api": "2.0.0",
+        "credentials": "2.1.14",
         "jackson2-api": "2.8.11.2",
         "junit": "1.3",
         "mailer": "1.20",
@@ -1566,53 +1567,50 @@
         "workflow-job": "2.0"
       },
       "optionalDependencies": {"workflow-step-api": "2.0"},
-      "otherDependencies":       {
-        "p4": "1.3.8",
-        "perforce": "1.3.9"
-      },
+      "otherDependencies": {"p4": "1.3.8"},
       "scope": "fat",
-      "sha1": "745dHNpZYlLEpHYIzBvuDi5QN9s=",
+      "sha1": "xlRHWZrWWKFbC6Eibf+EVeg40Xc=",
       "tier": "compatible"
     },
     "blueocean-jira":     {
       "name": "JIRA Integration for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-jira",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "apache-httpcomponents-client-4-api": "4.5.5-2.0",
-        "blueocean-rest": "1.7.1",
+        "apache-httpcomponents-client-4-api": "4.5.5-3.0",
+        "blueocean-rest": "1.8.2",
         "jackson2-api": "2.8.11.2",
         "jira": "3.0.0"
       },
       "scope": "fat",
-      "sha1": "j35PJo/LgeNbqDaKmUl+sN5tRxk=",
+      "sha1": "PaYvtiOiZC9xfbPozuAgONmuDrQ=",
       "tier": "compatible"
     },
     "blueocean-personalization":     {
       "name": "Personalization for Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-personalization",
-      "version": "1.7.1",
-      "dependencies": {"blueocean-dashboard": "1.7.1"},
+      "version": "1.8.2",
+      "dependencies": {"blueocean-dashboard": "1.8.2"},
       "scope": "fat",
-      "sha1": "gWkWv+XECw92RLROZ8Ni546hhEw=",
+      "sha1": "nHVGhgXdCx+jR5Pp/5OfGnlRTRc=",
       "tier": "compatible"
     },
     "blueocean-pipeline-editor":     {
       "name": "Blue Ocean Pipeline Editor",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean-pipeline-editor",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
-        "blueocean-commons": "1.7.1",
-        "blueocean-dashboard": "1.7.1",
-        "blueocean-pipeline-api-impl": "1.7.1",
-        "blueocean-rest": "1.7.1",
-        "pipeline-model-definition": "1.3"
+        "blueocean-commons": "1.8.2",
+        "blueocean-dashboard": "1.8.2",
+        "blueocean-pipeline-api-impl": "1.8.2",
+        "blueocean-rest": "1.8.2",
+        "pipeline-model-definition": "1.3.1"
       },
       "scope": "fat",
-      "sha1": "4yWluA7bPphwXUZfrga9CHJ0r7w=",
+      "sha1": "dd85CpmPGkd3dkFYcqFfjiP33JU=",
       "tier": "compatible"
     },
     "blueocean-autofavorite":     {
@@ -1665,51 +1663,51 @@
       "name": "Blue Ocean",
       "groupId": "io.jenkins.blueocean",
       "artifactId": "blueocean",
-      "version": "1.7.1",
+      "version": "1.8.2",
       "dependencies":       {
         "blueocean-autofavorite": "1.2.2",
-        "blueocean-bitbucket-pipeline": "1.7.1",
-        "blueocean-commons": "1.7.1",
-        "blueocean-config": "1.7.1",
-        "blueocean-core-js": "1.7.1",
-        "blueocean-dashboard": "1.7.1",
+        "blueocean-bitbucket-pipeline": "1.8.2",
+        "blueocean-commons": "1.8.2",
+        "blueocean-config": "1.8.2",
+        "blueocean-core-js": "1.8.2",
+        "blueocean-dashboard": "1.8.2",
         "blueocean-display-url": "2.2.0",
-        "blueocean-events": "1.7.1",
-        "blueocean-git-pipeline": "1.7.1",
-        "blueocean-github-pipeline": "1.7.1",
-        "blueocean-i18n": "1.7.1",
-        "blueocean-jira": "1.7.1",
-        "blueocean-jwt": "1.7.1",
-        "blueocean-personalization": "1.7.1",
-        "blueocean-pipeline-api-impl": "1.7.1",
-        "blueocean-pipeline-editor": "1.7.1",
-        "blueocean-rest": "1.7.1",
-        "blueocean-rest-impl": "1.7.1",
-        "blueocean-web": "1.7.1",
-        "jenkins-design-language": "1.7.1",
+        "blueocean-events": "1.8.2",
+        "blueocean-git-pipeline": "1.8.2",
+        "blueocean-github-pipeline": "1.8.2",
+        "blueocean-i18n": "1.8.2",
+        "blueocean-jira": "1.8.2",
+        "blueocean-jwt": "1.8.2",
+        "blueocean-personalization": "1.8.2",
+        "blueocean-pipeline-api-impl": "1.8.2",
+        "blueocean-pipeline-editor": "1.8.2",
+        "blueocean-rest": "1.8.2",
+        "blueocean-rest-impl": "1.8.2",
+        "blueocean-web": "1.8.2",
+        "jenkins-design-language": "1.8.2",
         "pipeline-build-step": "2.7",
         "pipeline-milestone-step": "1.3.1"
       },
       "scope": "fat",
-      "sha1": "qK/NwcpvYeN1VyVjZZner/1p5WQ=",
+      "sha1": "Xdoh1Xy/J9FR9RgR6RdKp4/eJEw=",
       "tier": "compatible"
     },
     "bluesteel-master":     {
       "name": "Managed Master New User Experience",
       "groupId": "com.cloudbees.jenkins.plugins.bluesteel",
       "artifactId": "bluesteel-master",
-      "version": "1.2.8",
+      "version": "1.2.9",
       "dependencies":       {
-        "blueocean": "1.7.1",
-        "blueocean-core-js": "1.7.1",
+        "blueocean": "1.8.2",
+        "blueocean-core-js": "1.8.2",
         "cloudbees-blueocean-default-theme": "0.3",
         "cloudbees-folder": "6.3",
-        "jenkins-design-language": "1.7.1",
+        "jenkins-design-language": "1.8.2",
         "operations-center-client": "2.73.0.1"
       },
       "optionalDependencies": {"cloudbees-folders-plus": "3.3"},
       "scope": "fat",
-      "sha1": "rSvxy7/ZB3ym2svPFEJ0wNXZ6bE=",
+      "sha1": "ZHiOGbXGI0sJRu6r0BP/S2KYHUA=",
       "tier": "proprietary"
     },
     "build-timeout":     {
@@ -1740,18 +1738,18 @@
       "name": "CloudBees Amazon AWS CLI Plugin",
       "groupId": "com.cloudbees.jenkins.plugins",
       "artifactId": "cloudbees-aws-cli",
-      "version": "1.5.8",
+      "version": "1.5.9",
       "dependencies":       {
         "async-http-client": "1.7.24.1",
         "aws-credentials": "1.10",
         "aws-java-sdk": "1.11.37",
         "cloudbees-license": "7.1",
-        "credentials": "1.22",
+        "credentials": "2.1.2",
         "nectar-license": "7.1",
         "structs": "1.6"
       },
       "scope": "fat",
-      "sha1": "37NOdUJsD3AAKEvKYbkeZ+BwJqc=",
+      "sha1": "UUznTNgQTo3XcmBQuaT4elrAJAo=",
       "tier": "proprietary"
     },
     "deployed-on-column":     {
@@ -1790,17 +1788,18 @@
       "name": "CloudBees Amazon Web Services Deploy Engine Plugin",
       "groupId": "com.cloudbees.jenkins.plugins",
       "artifactId": "cloudbees-aws-deployer",
-      "version": "1.17",
+      "version": "1.18",
       "dependencies":       {
-        "aws-credentials": "1.10",
-        "aws-java-sdk": "1.11.37",
-        "cloudbees-license": "7.1",
-        "credentials": "1.22",
+        "apache-httpcomponents-client-4-api": "4.5.3-2.0",
+        "aws-credentials": "1.21",
+        "aws-java-sdk": "1.11.119",
+        "cloudbees-license": "9.17",
+        "credentials": "2.1.16",
         "deployer-framework": "1.1",
-        "nectar-license": "7.1"
+        "nectar-license": "8.6"
       },
       "scope": "fat",
-      "sha1": "OvbVuC/OYPsem8XKfy+oKpA/4SI=",
+      "sha1": "nCDAev/XvDtcLGcjjHsBhB7H4vM=",
       "tier": "proprietary"
     },
     "cloudbees-even-scheduler":     {
@@ -1944,13 +1943,13 @@
       "name": "CloudBees Pipeline: Templates Plugin",
       "groupId": "com.cloudbees.jenkins.plugins.workflow",
       "artifactId": "cloudbees-workflow-template",
-      "version": "2.8-SNAPSHOT",
+      "version": "3.0-SNAPSHOT",
       "dependencies":       {
         "cloudbees-folder": "5.13",
         "cloudbees-template": "4.37-SNAPSHOT",
         "credentials": "2.1.8",
         "nectar-license": "7.17",
-        "scm-api": "2.2.8-SNAPSHOT",
+        "scm-api": "2.2.8",
         "script-security": "1.23",
         "structs": "1.5",
         "workflow-api": "2.4",
@@ -2212,7 +2211,7 @@
       "name": "CloudBees Back-up Plugin",
       "groupId": "com.infradna.hudson.plugins",
       "artifactId": "infradna-backup",
-      "version": "3.38.2",
+      "version": "3.38.3",
       "dependencies":       {
         "apache-httpcomponents-client-4-api": "4.5.3-2.0",
         "aws-credentials": "1.21",
@@ -2224,7 +2223,7 @@
         "ssh-credentials": "1.13"
       },
       "scope": "fat",
-      "sha1": "VtAQAovhs5m9dYmHS32HQt9kgaU=",
+      "sha1": "wHbEPKW8nfwXtb8gA75S4DqVjRM=",
       "tier": "proprietary"
     },
     "kubernetes-credentials":     {
@@ -2465,9 +2464,9 @@
       "name": "PAM Authentication plugin",
       "groupId": "org.jenkins-ci.plugins",
       "artifactId": "pam-auth",
-      "version": "1.3",
+      "version": "1.4",
       "scope": "fat",
-      "sha1": "rokcFkt9Vzt/wVwMo7CbsoIhGW4=",
+      "sha1": "ABxQ+CYVU0YHoZCun00EIfrvcVA=",
       "tier": "compatible"
     },
     "pipeline-event-step":     {
@@ -2634,6 +2633,9 @@
     "cloudbees-github-pull-requests",
     "cloudbees-ha",
     "cloudbees-registration",
+    "devoptics-deliver-client",
+    "devoptics-deliver-events",
+    "devoptics-deliver-oc",
     "esr-feeder",
     "external-notification",
     "operations-center-analytics",
@@ -2651,10 +2653,10 @@
     "visual-studio-online"
   ],
   "signature":   {
-    "correct_digest": "+3VqCg9zqLUsqoU5pyfdPEpzJTg=",
+    "correct_digest": "H3N6C37oxBD6DGICwOkKbU0Pri0=",
     "certificates": ["MIIDyjCCArICCQDjhYDxdF9w9jANBgkqhkiG9w0BAQUFADCBpjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExETAPBgNVBAcTCFNhbiBKb3NlMRgwFgYDVQQKEw9DbG91ZEJlZXMsIEluYy4xEDAOBgNVBAsTB0plbmtpbnMxGjAYBgNVBAMTEUtvaHN1a2UgS2F3YWd1Y2hpMScwJQYJKoZIhvcNAQkBFhhra2F3YWd1Y2hpQGNsb3VkYmVlcy5jb20wHhcNMTExMDIyMTgzMTM2WhcNMjExMDE5MTgzMTM2WjCBpjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExETAPBgNVBAcTCFNhbiBKb3NlMRgwFgYDVQQKEw9DbG91ZEJlZXMsIEluYy4xEDAOBgNVBAsTB0plbmtpbnMxGjAYBgNVBAMTEUtvaHN1a2UgS2F3YWd1Y2hpMScwJQYJKoZIhvcNAQkBFhhra2F3YWd1Y2hpQGNsb3VkYmVlcy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVPr8iuS4BTVjKZ0PvZvfoCkBnNeqVsyjDO5XDdYeGPHbG3D8OIpHZQjgr9IeL+bUF3JEfPS0F0TmNSf0mzrHxGCRsVQcGsDClqFqVnUlG4b9ThcRckYVe+/Wl6DCrGTUI08Ivc7bpnxi+ZxeGtdCGEL6gNyw/t85qs/7JbTbAxXpRs+EWKcC6l8a7N8Uy5xgRxWzPfiF8wuLzrbrJCS0WYV3387eo9RmXqbEVeoAyD7hkcjJb17ZSFv6eJTn0K/Z9i8jmuTqZe6bN/YmP3y4r8tx4z2nx+qFVeJZ7pM7FyRlUAO1qPKjw0pDSGYzoXp3T/1PiBYI09EADQL4dpa5zAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAKx1keEJnlDHlHCsEEyFdmLxlYJ+6CSlrU9B/pJ7ufUuQJUfCYancmeO+8XSkDzN/3HvpKyWWmUWNlmVvbVnTVxfp3/Y4YshuNfyuP/gXOGoz/ZzQVoq+GJ4gaEr6VZgEv9DCfFQr5HhZQLj1Zc1oQaxB//YrBkw9Yhx7hHSW/qwyrqJEjzA0EEIixNfQm+qdYv4PR1Zzmue9XhGMXpQiymEYo90DJomBPVwVII1OimgIXtDgJQebAxPxvwfhodPNTCxit3zn8Z7I8iMrzHoMA4mk4OJPqwP6Gr4iD8+Fg/xO1T2CxZ4C7gLiQx/OnHCAGxZD2BmGQ9WzzriZ727tl4="],
-    "correct_signature": "DiSaW++4OXyHsQJKuD/eZBplMHQUADTS7KDoyVO84Y5AyvmbyCh0MzMdX3HLVXFKHaBKQZxlVSOOSPwtkgp+RsXdQOYKJ6SAHBeY1GDbOXBQvSQFdnvTL5M+2y/EoE+z8ZDnCZCFgFs2UqV+QeSmBySbLnVsAtZ/iV/A0/rwIF5+1afBe0SGtnzShXqgDTDnRv4unUw1Q3NHq+Lg7c0/6ZcFWPHmEPdrYn9WwsBlWnKZYxbfC+m9InmYEPSP77cmxKWDNeHXUrXQ+TangFUtQsGWN/djbi3aGV76Dipi4ZmrksXM+jpImbGp/wYh/lMMvQUXOCkRc7SdbnpVkXnZjw==",
-    "digest": "6r06ZRGj6dDa1QXVDMuF9qp2A28=",
-    "signature": "shzhlwBiJjv0otM7Iv5ZGhlADnvG44eC+2RqCqA6dWbbwHtawVcQoHDtjvQAUeLH5VStBIE+1YZgXm2q4MvXnRFiej++QZuUqtE5BXdz3oSOUXlOKLCb9OmMR1IlYGP7zR6anDl0duuE8zueNTeIFCoeP1aTeQDHC0DFs/khEx1GIFZijSGSiG36zgAcPSAQp1c0fofAcwN/pntUXrcg2s+dGQLqPCx7hoCHOoK2TlGSWEMdAb3133EnmjRqiifaaNyKwewMaapPCNBKRhYIShjU7VSQrmDpGnR6w068JGCUbPILBugiJITJctlST46WfYW09sJr+3uE326hcFPj/A=="
+    "correct_signature": "w8oEWJdh7vY3dwYqNeE0RZWDuiC+V46Ez/52g9M6kgyh/wGKyi9QH9Y6D447sbv0Sz0/BJ5LEWrQcLXBx6gC6+Xf4yIWGzpRls/AN9dfdbUXJmkq9IA2KDMi9M4idBjL1VnFu9nyVs3G9Ghte5SBuWQqlb/3Z+BNjQ1e9RsL/OxeL6ipFS17E7ap+kYr8XCBFAl4oGP4tzfEE4VOR+Z/dWK5szQ1l9GTRIhm6SenucRCcnbeonZKpceKwNZtFO+aWuCYe2TS0ISwBrM0RUlDIMTrCDpyONb7b2qd1wuyTr2/+PYgCE+BAs9Vo7mJa+Q+2TogMBAiKqjTy7bMYnrB9A==",
+    "digest": "UDUButQ5JLpLQKQe6nMBM4TuCVo=",
+    "signature": "m/6l3sa9C1NgXgHOXf6kAI4mkDBcHJ0g34P7X7Y8PR4RLXyPh5OhRmq11caD/9B+bYxmTxS+WLIsn6f6e5QfC6198mIWsJDcb2zjN7e9nfWblpWNpfLbDqdXxBCTIg90YRpgtudRouAaPo497xKxgEglODHAnLajNoq8H5oOyQvq7VoqYIcKqW/uMwW/mNLaPPAOekVE1HrM5Nc4d0yRjDeznS5E7M1cx995biXtFrbimvxf48OUyaPF/zqIh1bd7qjxTuI7m21AY5GTss16NKKxGDsubEAv1+FZ668WgAiNVwTMmA9YSK3fIOtTXbSWEBl20Xk0QAWd6UpCBOS6RA=="
   }
 }

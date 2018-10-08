@@ -13,6 +13,9 @@ jenkins:
       disableSyntaxHighlighting: true
   numExecutors: 0
 unclassified:
+  slackNotifier:
+    teamDomain: beedemo
+    tokenCredentialId: beedemo-slack
   globallibraries:
     libraries:
     - defaultVersion: "master"
