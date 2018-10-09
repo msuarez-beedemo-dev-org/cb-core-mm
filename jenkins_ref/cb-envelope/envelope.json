@@ -84,7 +84,7 @@
       "name": "Structs Plugin",
       "groupId": "org.jenkins-ci.plugins",
       "artifactId": "structs",
-      "version": "1.14",
+      "version": "1.15",
       "scope": "bootstrap",
       "sha1": "yQrTUhP5jDuBYEyVqyw06Zy9TqA=",
       "tier": "verified"
@@ -1951,7 +1951,7 @@
         "nectar-license": "7.17",
         "scm-api": "2.2.8",
         "script-security": "1.23",
-        "structs": "1.5",
+        "structs": "1.15",
         "workflow-api": "2.4",
         "workflow-cps": "2.18",
         "workflow-job": "2.7",

@@ -16,4 +16,5 @@ momentjs:1.1.1
 handlebars:1.1.1
 scm-api:2.2.8
 skip-plugin:4.1
+structs:1.15
 token-macro:2.1
