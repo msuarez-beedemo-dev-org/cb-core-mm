@@ -16,7 +16,7 @@ unclassified:
   slackNotifier:
     teamDomain: beedemo-team
     tokenCredentialId: beedemo-slack
-    channel: "#ci"
+    room: "#ci"
   globallibraries:
     libraries:
     - defaultVersion: "master"
