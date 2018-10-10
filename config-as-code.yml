@@ -14,8 +14,9 @@ jenkins:
   numExecutors: 0
 unclassified:
   slackNotifier:
-    teamDomain: beedemo
+    teamDomain: beedemo-team
     tokenCredentialId: beedemo-slack
+    channel: "#ci"
   globallibraries:
     libraries:
     - defaultVersion: "master"
