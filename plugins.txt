@@ -1,6 +1,6 @@
 antisamy-markup-formatter:1.5
 configuration-as-code:1.1
-configuration-as-code-support:1.0-rc2
+configuration-as-code-support:1.1
 cloudbees-workflow-ui:2.1
 notification-api:1.1
 operations-center-notification:1.0
