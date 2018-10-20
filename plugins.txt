@@ -17,7 +17,6 @@ handlebars:1.1.1
 cloudbees-template:4.36
 skip-plugin:4.1
 github-oauth:0.29
-aws-java-sdk:1.11.341
 aws-credentials:1.23
 artifact-manager-s3:1.1
 aws-global-configuration:1.0
