@@ -2,7 +2,8 @@
   "product": "core-mm",
   "version": "2.138.2.2",
   "distribution": "rolling",
-  "commit": "6248013ee01d81abbf443eeee1512a1a1626adf3",
+  "revision": 2,
+  "commit": "bff0270a19810c3551c547779f30137e188f6aaf",
   "core": "2.138.2-cb-1",
   "plugins":   {
     "async-http-client":     {
@@ -193,9 +194,9 @@
       "name": "Script Security Plugin",
       "groupId": "org.jenkins-ci.plugins",
       "artifactId": "script-security",
-      "version": "1.46",
+      "version": "1.46.1",
       "scope": "bootstrap",
-      "sha1": "n6RWlJLBhSUEbbehhO6oMdZRVzc=",
+      "sha1": "xZB2Z3/ffqMypne69RcPa+GI15Q=",
       "tier": "verified"
     },
     "command-launcher":     {
@@ -833,12 +834,12 @@
       "name": "Pipeline: Groovy",
       "groupId": "org.jenkins-ci.plugins.workflow",
       "artifactId": "workflow-cps",
-      "version": "2.54",
+      "version": "2.54.2",
       "dependencies":       {
         "ace-editor": "1.0.1",
         "jquery-detached": "1.2.1",
         "scm-api": "2.0.8",
-        "script-security": "1.42",
+        "script-security": "1.46.1",
         "structs": "1.14",
         "workflow-api": "2.27",
         "workflow-scm-step": "2.4",
@@ -847,7 +848,7 @@
       },
       "optionalDependencies": {"support-core": "2.32"},
       "scope": "fat",
-      "sha1": "SdyD7cgsnsF45PExv0fNAnr4Az8=",
+      "sha1": "O38jmx81FdK6HWePzYFf9KisYWY=",
       "tier": "compatible"
     },
     "branch-api":     {
@@ -1124,7 +1125,7 @@
       "name": "GitHub Branch Source Plugin",
       "groupId": "org.jenkins-ci.plugins",
       "artifactId": "github-branch-source",
-      "version": "2.4.0",
+      "version": "2.4.1",
       "dependencies":       {
         "credentials": "2.1.15",
         "display-url-api": "0.2",
@@ -2658,10 +2659,10 @@
     "visual-studio-online"
   ],
   "signature":   {
-    "correct_digest": "o82rfZ8w1NRbyqei4IUn6YzRqP0=",
+    "correct_digest": "KgO9oea5Djx5KuqeKqWXzm6dRaE=",
     "certificates": ["MIIDyjCCArICCQDjhYDxdF9w9jANBgkqhkiG9w0BAQUFADCBpjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExETAPBgNVBAcTCFNhbiBKb3NlMRgwFgYDVQQKEw9DbG91ZEJlZXMsIEluYy4xEDAOBgNVBAsTB0plbmtpbnMxGjAYBgNVBAMTEUtvaHN1a2UgS2F3YWd1Y2hpMScwJQYJKoZIhvcNAQkBFhhra2F3YWd1Y2hpQGNsb3VkYmVlcy5jb20wHhcNMTExMDIyMTgzMTM2WhcNMjExMDE5MTgzMTM2WjCBpjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExETAPBgNVBAcTCFNhbiBKb3NlMRgwFgYDVQQKEw9DbG91ZEJlZXMsIEluYy4xEDAOBgNVBAsTB0plbmtpbnMxGjAYBgNVBAMTEUtvaHN1a2UgS2F3YWd1Y2hpMScwJQYJKoZIhvcNAQkBFhhra2F3YWd1Y2hpQGNsb3VkYmVlcy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVPr8iuS4BTVjKZ0PvZvfoCkBnNeqVsyjDO5XDdYeGPHbG3D8OIpHZQjgr9IeL+bUF3JEfPS0F0TmNSf0mzrHxGCRsVQcGsDClqFqVnUlG4b9ThcRckYVe+/Wl6DCrGTUI08Ivc7bpnxi+ZxeGtdCGEL6gNyw/t85qs/7JbTbAxXpRs+EWKcC6l8a7N8Uy5xgRxWzPfiF8wuLzrbrJCS0WYV3387eo9RmXqbEVeoAyD7hkcjJb17ZSFv6eJTn0K/Z9i8jmuTqZe6bN/YmP3y4r8tx4z2nx+qFVeJZ7pM7FyRlUAO1qPKjw0pDSGYzoXp3T/1PiBYI09EADQL4dpa5zAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAKx1keEJnlDHlHCsEEyFdmLxlYJ+6CSlrU9B/pJ7ufUuQJUfCYancmeO+8XSkDzN/3HvpKyWWmUWNlmVvbVnTVxfp3/Y4YshuNfyuP/gXOGoz/ZzQVoq+GJ4gaEr6VZgEv9DCfFQr5HhZQLj1Zc1oQaxB//YrBkw9Yhx7hHSW/qwyrqJEjzA0EEIixNfQm+qdYv4PR1Zzmue9XhGMXpQiymEYo90DJomBPVwVII1OimgIXtDgJQebAxPxvwfhodPNTCxit3zn8Z7I8iMrzHoMA4mk4OJPqwP6Gr4iD8+Fg/xO1T2CxZ4C7gLiQx/OnHCAGxZD2BmGQ9WzzriZ727tl4="],
-    "correct_signature": "HJsR9cdFdBXc3Vl66qwA+sA8XZaityjuA+i/mArBN5xAkCpFEJDyFSrEeOi/LEO5W4ppUfE/sykCLV0p/2ulG43HjrplTbz8IYhj+nDuoRzb1Pm2cuh2L90aLFWJzNIYBkJtS9kMdYk2QYuUzvHSaldf6pNFevtmSSBSULBcZdLgYspZuWIMuAnd9BPQxEFnA4JWBXQLYLs5X7IUrSUd90HuuvyVUcXmYTYHxDzwF+/stG76rCJt+OqycZcs84/ayH16y/SWnw/GjDwOD4P2r2u+BQUOJNtrHzx3MKBWJFiZcpAM/R7aBh26/AtQU9n4/+B9k2ZPgZw8piuESKsdiA==",
-    "digest": "8Yo7//MuH93AqnxZxvWpON6+KMw=",
-    "signature": "GxMehkNgpJUu9Qb4YaOjJqN0ZJq+6ZpplLtguj3qBU4UUT9CHMGyl789Ng+pLunNa+yUzgQaz8PXh9aNpDcCYn7qXiRwJ/8ooel2b1e7kmSqlo1neGdfLfrQgAhJvZlh66llkHrUXwqueTQ55zCg+mKVsSW/skxlMx+9ZhMFCXj1k+Qp51QSTPyLM4V/fiwlguf3QIQQ8MwOcsY5+3GoBuADzmMLp269Cv/J85FvocsYre6Qts8+SOhU9UcI/HZpSiLLHoBRxOHSH3NWV39QdQLSar49jVpnidKdWU0Vh4NBQsUZxsqoTnEVXjuP4pgdZ2+MDqqFi5CnhVmrQFlL7g=="
+    "correct_signature": "dhUbn+KA3ea5+LF6NNNo9pYZHDcNUiGFVjMIpUYcUkGPZY69gkEipVUAUk32izx2GEtKLXpx1kyjQFlMyow6SJ9YaVbo9PbXsw6qBTfc2eJ+dKNalB7WdmG1srubSibSxPjDCoCW/uJ4Zo4feFjGxyWIb8rqoaHhLbvfaZXK6VsYVZAF9QonWzSXYlSgwSBZncH0zul71Ig7BA4CvlBIo7uJWTSkAx0RzdHkTSt55yDTTvNsBHHpcwmRtApWFUqfYTPuxA9c4CxFH7QLyKvqshaLQZktUWzDyOTfPvquwJpVKgt8Vy8QT0OXi+GR+G5mf/9ZQmCIKIXd2zoA+f/1Hg==",
+    "digest": "TWF7TguhCWuZaAK7ZiHvZcJbeUA=",
+    "signature": "iL1U+R1qLTA1sfWJPfB14hviE8FLmzt9vHp7jLe88n7I2RL/LzKLwKAUjvQtAsipvv2YIQZqBX+yaCjwDMmZm101cGNm9uaF6AQUjP6uUoPhppObWHcppDXVgb1N4+bVnFIUTSN/ZCVexEn3U8B01DnEL98ld2OuXpQjcZ5zZSNbzyvRdN/vjnDawqdOuOieO76IBRVG3NzGqIwjrEaPcGzJ8fthzklP+M7PNshIF/dgxZUgXGg+2iefdPxsxMmUBUZDGx0UkVXmuSQ4i5XNvrJXP+Fkr6rreLa2zGCmsFbdsu2q8yyNP7/dgbS3agvRa6VzHcKQH2C08FP9rdPyEg=="
   }
 }
