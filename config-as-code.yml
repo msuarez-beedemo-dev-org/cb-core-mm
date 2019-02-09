@@ -13,6 +13,10 @@ jenkins:
       disableSyntaxHighlighting: true
   numExecutors: 0
 unclassified:
+  artifactManager:
+    artifactManagerFactories:
+      - jclouds:
+          provider: s3
   slackNotifier:
     teamDomain: beedemo-team
     tokenCredentialId: beedemo-slack
@@ -39,3 +43,7 @@ kube:
             ttyEnabled: true
             command: cat
             args: ""
+aws:
+  s3:
+    container: "kypseli"
+    prefix: "cb-core/artifacts/"
