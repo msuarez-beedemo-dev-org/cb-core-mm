@@ -28,11 +28,14 @@ unclassified:
               credentialsId: "kypseli-github-token"
               repoOwner: "kypseli"
               repository: "pipeline-library"
-  globalCloudBeesPipelineTemplateCatalog:
-    catalogs:
-    - branchOrTag: "master"
-      scm:
-        github:
-          credentialsId: "kypseli-github-token"
-          repoOwner: "kypseli"
-          repository: "pipeline-templates"
+kube:
+  podTemplatesConfiguration:
+    templates:
+      - name: maven
+        label: mavenpodtemplate
+        containers:
+          - name: maven
+            image: maven:3.3.9-jdk-8-alpine
+            ttyEnabled: true
+            command: cat
+            args: ""
